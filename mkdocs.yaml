@@ -1,0 +1,53 @@
+# Project information
+site_name: Janssen Documentation
+site_description: Documentation for the Janssen Project
+
+# Copyright
+# copyright: Copyright &copy; 2020, Gluu, Inc.
+
+# Repository
+docs_dir: source
+repo_name: JanssenProject/docs
+repo_url: https://github.com/JanssenProject/docs/
+edit_uri: edit/source
+
+# Configuration
+theme:
+    name: material
+    palette:
+        primary: 'green'
+        accent: 'green'
+#    logo: 'gluu.jpg'
+#    favicon: 'favicon.ico'
+extra_css:
+  - css/tabs.css
+
+# Tracking
+google_analytics:
+  - 'UA-31008645-7'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+- admonition
+- attr_list
+- toc:
+     permalink: '#'
+- codehilite
+- pymdownx.superfences
+- pymdownx.tabbed
+
+# Navigation
+nav:
+- 'Admin UI': 'admin-ui/index.md'
+- 'Auth Server': 'auth-server/index.md'
+- 'Client API': 'client-api/index.md'
+- 'Cloud Native': 'cloud-native/index.md'
+- 'Configuration API': 'config-api/index.md'
+- 'Core': 'core/index.md'
+- 'Eleven': 'eleven/index.md'
+- 'Fido 2': 'fido2/index.md'
+- 'Notify': 'notify/index.md'
+- 'ORM': 'orm/index.md'
+- 'SCIM': 'scim/index.md'
+- 'Setup': 'setup/index.md'
