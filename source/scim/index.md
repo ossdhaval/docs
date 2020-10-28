@@ -14,6 +14,8 @@
 
 ## Overview
 
+You'll need to get add, edit and update user information to your identity and access management system. This component implements a [SCIM API](http://www.simplecloud.info), an IETF standard JSON/REST interface to accomplish this. This service should not be Internet facing.
+
 ## API Reference
 
 ## Code Reference
