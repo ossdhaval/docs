@@ -14,6 +14,8 @@
 
 ## Overview
 
+Although all configuration can be handled through APIs, the Admin UI calls the config-api service for you, logging the corresponding calls for your reference. This service should not be Internet facing.
+
 ## API Reference
 
 ## Code Reference
