@@ -14,9 +14,9 @@
 
 ## Overview
 
-## API Reference
+This is a PKCS11 REST API that can be used for key operations by the auth-server in lieu of local storage of private keys. This should service should not be Internet facing.
 
-## Code Reference
+## API Reference
 
 ## Deployment
 
