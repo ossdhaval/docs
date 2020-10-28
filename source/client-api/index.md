@@ -5,12 +5,12 @@
 
 
 ## Introduction
-Janssen client-api exposes simple, static APIs web application developers can use to implement user authentication and authorization against an OAuth 2.0 authorization server like [Gluu](https://gluu.org/docs/ce/4.2/). The Janssen client-api Linux package includes the Janssen client-api server which is a simple REST application. The server is designed to work over the web (via https), making it possible for many apps across many servers to leverage a central service for OAuth 2.0 security.
+Janssen client-api exposes simple, static APIs web application developers can use to implement user authentication and authorization against an OAuth 2.0 authorization server like [Janssen](https://jans.io/docs/). The Janssen client-api Linux package includes the Janssen client-api server which is a simple REST application. The server is designed to work over the web (via https), making it possible for many apps across many servers to leverage a central service for OAuth 2.0 security.
 
 ## Architecture 
 Janssen client-api saves data in its own persistence (`RDMBS`, `redis`, etc.) and acts as RP for OP. It is possible that the admin goes to OP directly and change client data there. In that case, oxd will not know about it and can act on outdated data. To prevent this confusion user can configure client during registration so that oxd can automatically synchronize with the client data from OP whenever required. Check [Register site](./api/index.md#register-site) for more details.
 
-![oxd-https-architecture](./img/oxd-https.jpg) 
+<!--![oxd-https-architecture](./img/oxd-https.jpg) -->
 
 ## Tutorial
 
@@ -24,7 +24,7 @@ Follow one of our tutorials to learn how client-api works:
 
 To get started:
 
-1. [Install](https://jans.io/docs/ce/5.0/installation-guide) Janssen CE and ensure to hit Y when `Install client-api?` is prompted while running [setup scripts](https://jans.io/docs/ce/5.0/installation-guide/setup_py/#setup-prompt).
+1. [Install](https://jans.io/docs/ce/installation-guide) Janssen CE and ensure to hit Y when `Install client-api?` is prompted while running [setup scripts](https://jans.io/docs/ce/5.0/installation-guide/setup_py/#setup-prompt).
 
 1. [Configure](./configuration/client-api-configuration/index.md) the `client-api-server`           
 
@@ -92,10 +92,10 @@ Using jans-client-api, your application can delegate access management decisions
 
 Client APIs are [swaggerized](https://github.com/JanssenProject/jans-client-api/blob/master/server/src/main/resources/swagger.yaml)! Use the [Swagger Code Generator](https://swagger.io/tools/swagger-codegen/) to generate native libraries for your programming language of choice. 
 
-For more information about generating native clients, [check our FAQ](https://gluu.org/docs/oxd/4.2/faq/#what-is-the-easiest-way-to-generate-native-library-for-oxd).
+<!-- For more information about generating native clients, [check our FAQ](https://gluu.org/docs/oxd/4.2/faq/#what-is-the-easiest-way-to-generate-native-library-for-oxd). -->
 
 ## Compatibility
-oxd 4.2 has been tested against the following OAuth 2.0 Authorization Servers:
+Janssen client-api has been tested against the following OAuth 2.0 Authorization Servers:
 
 ### OpenID Providers (OP)
 - Gluu Server [4.2](https://gluu.org/docs/ce/4.2), [4.1](https://gluu.org/docs/ce/4.1), [3.1.6](https://gluu.org/docs/ce/3.1.6)
@@ -108,9 +108,9 @@ oxd 4.2 has been tested against the following OAuth 2.0 Authorization Servers:
 The oxd source code is [available on GitHub](https://github.com/GluuFederation/oxd). 
 
 ## License
-oxd 4.2 is available under the AGPL open source license. 
+Janssen Server is available under the AGPL open source license. 
 
 ## Support
-Gluu offers support for oxd on the [Gluu Support Portal](https://support.gluu.org). In fact, we use oxd and a Gluu Server to provide single sign-on across our oxd portal and support app! 
+Gluu offers support for Janssen on the [Gluu Support Portal](https://support.gluu.org). In fact, we use oxd and a Gluu Server to provide single sign-on across our oxd portal and support app! 
 
 For guaranteed response times, private support, and more, Gluu offers [VIP support](https://gluu.org/pricing). 
