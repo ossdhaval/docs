@@ -1,4 +1,4 @@
-# Admin User Interface
+# Janssen Notify
 
 <!--
 1. Architecture / Feature Overview: A high level overview of what the component is supposed to do and how it works.
