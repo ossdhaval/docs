@@ -34,13 +34,13 @@ To get started:
 
     |Operation | Command|
     |------ |------ |
-    |Restart client-api server | `/etc/init.d/client-api-server restart` |
+    |Restart jans-client-api server | `/etc/init.d/jans-client-api-server restart` |
 
     **Ubuntu 18.04 (bionic)/Debian 9 (stretch)/CentOS 7/RHEL 7**
 
     |Operation | Command|
     |------ |------ |
-    |Restart client-api server | `systemctl restart client-api-server` |
+    |Restart jans-client-api server | `systemctl restart jans-client-api-server` |
 
 1. After Janssen Server Community Edition (CE) installation is completed wait for about 10 minutes in total for the server to restart and finalize its configuration. After that period, to access Janssen server CE, sign in via a web browser to `hostname` provided during installation. For quick check whether client-api-server is alive use oxd `Health Check` endpoint `https://$HOSTNAME:8443/health-check`. This should return `{"status":"running"}` ensuring the successful installation of client-api.
 
@@ -51,7 +51,7 @@ Call the [client API](./api/index.md) to implement authentication and authorizat
 Janssen client-api implements the [OpenID Connect](http://openid.net/specs/openid-connect-core-1_0.html) and [UMA 2.0](https://docs.kantarainitiative.org/uma/wg/oauth-uma-grant-2.0-05.html) profiles of OAuth 2.0.
 
 !!! Attention
-    By default Janssen client-api allows only `localhost` to access its apis. To make request from another server or VM add its ip-address to `bind_ip_addresses` array in `client-api-server.yml`. Check `bind_ip_addresses` in [configurations](./configuration/oxd-configuration/index.md#server-configuration-fields-descriptions) for details.
+    By default Janssen client-api allows only `localhost` to access its apis. To make request from another server or VM add its ip-address to `bind_ip_addresses` array in `jans-client-api-server.yml`. Check `bind_ip_addresses` in [configurations](./configuration/oxd-configuration/index.md#server-configuration-fields-descriptions) for details.
     
 Before using Janssen client-api you need to obtain an access token to secure the interaction with `client-api-server`. You can follow the two steps below. 
 
