@@ -105,7 +105,7 @@ Janssen client-api has been tested against the following OAuth 2.0 Authorization
 - Gluu Server [4.2](https://gluu.org/docs/ce/4.2), [4.1](https://gluu.org/docs/ce/4.1), [3.1.6](https://gluu.org/docs/ce/3.1.6)
 
 ## Source code
-The oxd source code is [available on GitHub](https://github.com/GluuFederation/oxd). 
+The jans-client-api source code is [available on GitHub](https://github.com/JanssenProject/home). 
 
 ## License
 Janssen Server is available under the AGPL open source license. 
