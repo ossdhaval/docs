@@ -10,7 +10,7 @@ Janssen client-api exposes simple, static APIs web application developers can us
 ## Architecture 
 Janssen client-api saves data in its own persistence (`RDMBS`, `redis`, etc.) and acts as RP for OP. It is possible that the admin goes to OP directly and change client data there. In that case, oxd will not know about it and can act on outdated data. To prevent this confusion user can configure client during registration so that oxd can automatically synchronize with the client data from OP whenever required. Check [Register site](./api/index.md#register-site) for more details.
 
-![jans-client-api-https-architecture](./img/jans-client-api-https.jpg) -->
+![jans-client-api-https-architecture](./img/jans-client-api/jans-client-api-https.jpg) 
 
 ## Tutorial
 
