@@ -92,7 +92,7 @@ Using jans-client-api, your application can delegate access management decisions
 
 Client APIs are [swaggerized](https://github.com/JanssenProject/jans-client-api/blob/master/server/src/main/resources/swagger.yaml)! Use the [Swagger Code Generator](https://swagger.io/tools/swagger-codegen/) to generate native libraries for your programming language of choice. 
 
-<!-- For more information about generating native clients, [check our FAQ](https://gluu.org/docs/oxd/4.2/faq/#what-is-the-easiest-way-to-generate-native-library-for-oxd). -->
+It is easy to generate appropriate client via https://app.swaggerhub.com GUI, just add swagger spec and in upper right corner it's possible to download client.
 
 ## Compatibility
 Janssen client-api has been tested against the following OAuth 2.0 Authorization Servers:
