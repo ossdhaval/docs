@@ -14,13 +14,23 @@
 
 ## Overview
 
+Janssen Notify is a simple push notification server.
+
 ## API Reference
+<!-- Will this project have unique APIs? -->
 
 ## Code Reference
+<!-- Ensure there aren't Javadocs for this component -->
 
 ## Deployment
 
+Janssen Notify is installed automatically through the Setup Script. 
+
+<!-- Manual instructions -->
+
 ## Data
+
+<!-- Does this component store data? -->
 
 ## Testing
 
