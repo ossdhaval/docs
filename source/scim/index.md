@@ -18,9 +18,15 @@ You'll need to get add, edit and update user information to your identity and ac
 
 ## API Reference
 
+<!-- API documentation needs to be generated and linked here -->
+
 ## Code Reference
 
+<!-- Double check that SCIM Javadocs aren't needed-->
+
 ## Deployment
+
+During installation, the administrator will be given a choice 
 
 ## Data
 
