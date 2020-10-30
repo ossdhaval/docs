@@ -14,11 +14,21 @@
 
 ## Overview
 
+This library has code that is shared across several Janssen projects. You will most likely need this project when you build other Janssen components.
+
 ## API Reference
+
+<!-- Find out if APIs exist for this component -->
 
 ## Code Reference
 
+<!--Javadocs?-->
+
 ## Deployment
+
+Janssen Core is included when Janssen is installed with the Setup script. 
+
+<!-- Add manual installation instructions? -->
 
 ## Data
 
