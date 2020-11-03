@@ -12,14 +12,6 @@ Janssen client-api saves data in its own persistence (`RDMBS`, `redis`, etc.) an
 
 ![jans-client-api-https-architecture](../img/jans-client-api/jans-client-api-https.png) 
 
-## Tutorial
-
-Follow one of our tutorials to learn how client-api works: 
-
-- [Python](./tutorials/python/index.md)
-- [Java](./tutorials/java/index.md) 
-- [Spring](./tutorials/spring/index.md) 
-
 ## Get Started
 
 To get started:
@@ -103,6 +95,14 @@ Janssen client-api has been tested against the following OAuth 2.0 Authorization
 
 ### UMA Authorization Servers (AS)
 - Gluu Server [4.2](https://gluu.org/docs/ce/4.2), [4.1](https://gluu.org/docs/ce/4.1), [3.1.6](https://gluu.org/docs/ce/3.1.6)
+
+## Tutorial
+
+Follow one of our tutorials to learn how client-api works: 
+
+- [Python](./tutorials/python/index.md)
+- [Java](./tutorials/java/index.md) 
+- [Spring](./tutorials/spring/index.md) 
 
 ## Source code
 The jans-client-api source code is [available on GitHub](https://github.com/JanssenProject/home). 
