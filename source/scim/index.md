@@ -14,7 +14,11 @@
 
 ## Overview
 
-You'll need to get add, edit and update user information to your identity and access management system. This component implements a [SCIM API](http://www.simplecloud.info), an IETF standard JSON/REST interface to accomplish this. This service should not be Internet facing.
+SCIM is a specification designed to reduce the complexity of user management operations by providing a common user schema and the patterns for exchanging such schema using HTTP in a platform-neutral fashion. The aim of SCIM is achieving interoperability, security, and scalability in the context of identity management.
+
+Developers can think of **SCIM** merely as a **REST API** with endpoints exposing **CRUD** functionality (create, read, update and delete).
+
+For your reference, the current version of the standard is governed by the following documents: [RFC 7642](https://tools.ietf.org/html/rfc7642), [RFC 7643](https://tools.ietf.org/html/rfc7643), and [RFC 7644](https://tools.ietf.org/html/rfc7644).
 
 ## API Reference
 
@@ -26,7 +30,7 @@ You'll need to get add, edit and update user information to your identity and ac
 
 ## Deployment
 
-During installation, the administrator will be given a choice 
+During Janssen installation, select the option to also install the SCIM component.
 
 ## Data
 
@@ -35,3 +39,10 @@ During installation, the administrator will be given a choice
 ## User Guide
 
 ## Security Considerations
+
+Clearly, this API must not be anonymously accessed. However, the basic SCIM standard does not define a specific mechanism to prevent unauthorized requests to endpoints. There are just a few guidelines in section 2 of [RFC 7644](https://tools.ietf.org/html/rfc7644) concerned with authentication and authorization. 
+
+Janssen allows you to protect your endpoints with UMA (a profile of [OAuth 2.0](http://tools.ietf.org/html/rfc6749)). This is a safe and standardized approach for controlling access to web resources. For SCIM protection, we **strongly recommend** its usage. 
+
+Alternatively, for testing purposes you can temporarily enable the test mode. In this mode, some complexity is taken out so that it serves as a quick and easy way to start interacting with your service, as well as learning about SCIM.
+
