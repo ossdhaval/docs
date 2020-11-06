@@ -5,7 +5,7 @@
 
 
 ## Introduction
-Janssen client-api exposes simple, static APIs web application developers can use to implement user authentication and authorization against an OAuth 2.0 authorization server like [Janssen](https://jans.io/docs/). The Janssen client-api Linux package includes the Janssen client-api server which is a simple REST application. The server is designed to work over the web (via https), making it possible for many apps across many servers to leverage a central service for OAuth 2.0 security.
+Janssen client-api exposes simple, static APIs web application developers can use to implement user authentication and authorization against an external OAuth 2.0 authorization server like [Janssen](https://jans.io/docs/). The Janssen client-api Linux package includes the Janssen client-api server which is a simple REST application. The server is designed to work over the web (via https), making it possible for many apps across many servers to leverage a central service for OAuth 2.0 security.
 
 ## Architecture 
 Janssen client-api saves data in its own persistence (`RDMBS`, `redis`, etc.) and acts as RP for OP. It is possible that the admin goes to OP directly and change client data there. In that case, oxd will not know about it and can act on outdated data. To prevent this confusion user can configure client during registration so that oxd can automatically synchronize with the client data from OP whenever required. Check [Register site](./api/index.md#register-site) for more details.
