@@ -14,26 +14,28 @@
 
 ## Overview
 
-Janssen Notify is a simple push notification server.
-
+Janssen Notify is a simple push notification server. Currently, it is only used with two factor authentication mobile apps, such as [Super Gluu](https://gluu.org/docs/supergluu).
+<!--
 ## API Reference
-<!-- Will this project have unique APIs? -->
+Will this project have unique APIs?
 
 ## Code Reference
-<!-- Ensure there aren't Javadocs for this component -->
+Ensure there aren't Javadocs for this component
+-->
 
 ## Deployment
 
 Janssen Notify is installed automatically through the Setup Script. 
-
-<!-- Manual instructions -->
+<!--
+Manual instructions
 
 ## Data
 
-<!-- Does this component store data? -->
+Does this component store data?
 
 ## Testing
 
 ## User Guide
 
 ## Security Considerations
+-->
