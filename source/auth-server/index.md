@@ -1,4 +1,4 @@
-# Janssen Authentication Server
+# Janssen Authorization Server
 
 <!--
 1. Architecture / Feature Overview: A high level overview of what the component is supposed to do and how it works.
@@ -13,7 +13,9 @@
 -->
 
 ## Overview
+jans-auth-server is an open-source OpenID Connect Provider (OP) and UMA Authorization Server (AS). The project also includes OpenID Connect Client code which can be used by websites to validate tokens.
 
+The server currently implements all required aspects of the OpenID Connect stack, including an OAuth 2.0 authorization server, Simple Web Discovery, Dynamic Client Registration, JSON Web Tokens, JSON Web Keys, and User Info Endpoint.
 ## API Reference
 
 ## Code Reference
