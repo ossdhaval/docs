@@ -17,7 +17,7 @@ Janssen Authorization Server is an open-source OpenID Connect Provider (OP) and 
 
 The server currently implements all required aspects of the OpenID Connect stack, including an OAuth 2.0 authorization server, Simple Web Discovery, Dynamic Client Registration, JSON Web Tokens, JSON Web Keys, and User Info Endpoint.
 
-Click here [SwaggerUI](https://raw.githubusercontent.com/GluuFederation/oxAuth/master/docs/oxAuthSwagger.yaml) for accessing SwaggerUI. 
+Learn more in the [auth-server documentation(SwaggerUI)](https://raw.githubusercontent.com/GluuFederation/oxAuth/master/docs/oxAuthSwagger.yaml) for accessing SwaggerUI. 
 ## API Reference
 
 ## Code Reference
