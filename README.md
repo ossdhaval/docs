@@ -1,5 +1,7 @@
 # Janssen Documentation
 
+The full documentation for the Janssen Project is in progress.
+
 This is the main repo for Janssen Project documentation. Each project may have a few types of docs:
 1. Architecture / Feature Overview: A high level overview of what the component is supposed to do and how it works.
 1. API Reference: An [OpenAPI](https://swagger.io/specification/) document which can be viewed with [SwaggerUI](https://swagger.io/tools/swagger-ui/)
