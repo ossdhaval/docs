@@ -1,4 +1,4 @@
-# Admin User Interface
+# Janssen Command Line Interface
 
 <!--
 1. Architecture / Feature Overview: A high level overview of what the component is supposed to do and how it works.
@@ -13,8 +13,6 @@
 -->
 
 ## Overview
-
-Although all configuration can be handled through APIs, the Admin UI calls the config-api service for you, logging the corresponding calls for your reference. This service should not be Internet facing.
 
 ## API Reference
 
