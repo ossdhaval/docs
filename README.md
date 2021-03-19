@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c92458b200f044e49eb8783e7ce3a965)](https://www.codacy.com/gh/JanssenProject/docs/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JanssenProject/docs&amp;utm_campaign=Badge_Grade)
+
 # Janssen Documentation
 
 The full documentation for the Janssen Project is in progress.
